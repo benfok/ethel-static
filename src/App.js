@@ -17,7 +17,7 @@ import Demo from './pages/Demo';
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
-  uri: '/graphql',
+  uri: 'https://ethel-server.onrender.com/graphql',
 });
 
 // Construct request middleware that will attach the JWT token to every request as an `authorization` header
