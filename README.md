@@ -112,9 +112,9 @@ Here are some screenshots of the deployed application
 ## Questions and Links
 Please reach out with any questions regarding the application.
 
-The epository in [GitHub](https://github.com/benfok/Ethel)
+The GitHub repository is split into a [Front End](https://github.com/benfok/ethel-static) and [Back End](https://github.com/benfok/ethel-server) for deploy on Render
 
-The deployed application on [Heroku](https://ethyl.herokuapp.com/)
+The deployed application on [Render](https://ethel.onrender.com/)
 
 ## Details and Learnings
 - Creating the list actions modal within the context of each list itself rather than the full page allows the user to easily see which list they are acting on and keeps the functionality intuitive. There is a risk with this approach due to the potential size conflict between the user search modal and the list card size, for example if a search for users to share a list returns a large number of results.
